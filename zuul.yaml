@@ -1,0 +1,4 @@
+- job:
+    name: hello-world
+    description: Simple test job for the Zuul CI setup.
+    run: playbooks/hello-world.yaml

@@ -1,0 +1,5 @@
+- hosts: all
+  tasks:
+    - name: Print CI success message
+      ansible.builtin.debug:
+        msg: "Hello from Zuul CI! The job executed successfully."
